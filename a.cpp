@@ -8,6 +8,10 @@ int addElement(int a, std::vector<T>& v) {
     return 1000000;
 }
 
+int plus(int a, int b) {
+    return a + b;
+}
+
 int main() {
     int a, b;
     std::cin >> a >> b;
