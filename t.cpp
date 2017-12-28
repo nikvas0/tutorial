@@ -1,6 +1,9 @@
 #include <iostream>
+#include <cmath>
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    int a, b;
+    std::cin >> a >> b;
+    std::cout << a + b << std::endl;
     return 0;
 }
