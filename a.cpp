@@ -1,3 +1,7 @@
+#include <iostream>
+#include <cmath>
+#include <cstdlib>
+
 template <class T>
 int addElement(int a, std::vector<T>& v) {
     v.push_back(a);
